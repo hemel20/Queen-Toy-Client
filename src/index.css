@@ -1,0 +1,121 @@
+
+/* ----------Custom Font-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+/* ----------Font For Logo---------- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width:10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #f7729e;
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff266e;
+    
+  }
+  
+::selection {
+    color: #fff;
+    background-color: #ff6195;
+  }
+/* ------------Color Template ------------------ */
+
+/* ===============================
+            Colors 
+================================== */
+.color-cyan{
+    color: #4acdd5;
+}
+
+
+.color-pink{
+    color:#ff6799;
+}
+
+.color-hading{
+    color: #222222;;
+}
+
+
+
+/* ==================================
+             BackGround Colors
+==================================== */
+.bg-cyan{
+    background-color:  #5bd9d9;
+}
+.bg-cyan-low{
+    background-color: #c2e0eb;
+}
+.bg-pink{
+    background-color: #ff6799;
+}
+.bg-yellow{
+    background-color: #fddb45;
+}
+.slider-bg{
+    color:#efe4e4;
+}
+
+.logo-style{
+    font-family: 'Cinzel', serif;
+}
+
+
+.custom-text-shadow{
+    text-shadow: 1px 1px black;
+}
+
+.logo-text-shadow{
+    text-shadow:1px 1px #ff2247;
+}
+
+.gallery img {
+     transition: all .5s ease;
+}
+.gallery img:hover {
+     transform: scale(1.25);
+}
+
+.brand-img > img{
+    display: inline;
+    width: 120px;
+    height: 90px;
+    margin : 0 20px ;
+  
+   }
+
+.box-shadow{
+    box-shadow: 2px 2px 10px 1px #2d3e6386;
+}
+
